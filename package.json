@@ -1,0 +1,21 @@
+{
+  "name": "prototypo-mass-affect",
+  "private": true,
+  "version": "1.0.0",
+  "licence": "unlicensed",
+  "description": "Mass Affect™ a lot of users to Prototypo from a CSV",
+  "dependencies": {
+    "csv-parse": "^1.1.7",
+    "hoodie": "1.0.3",
+    "intercom-client": "^2.8.5",
+    "jquery": "1.x",
+    "mock-browser": "^0.92.12",
+    "node-fetch": "^1.6.3",
+    "nodemailer": "^2.6.4",
+    "password-generator": "^2.0.2",
+    "promptly": "^2.1.0"
+  },
+  "bin": {
+    "mass-affect": "index.js"
+  }
+}
